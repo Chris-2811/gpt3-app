@@ -33,7 +33,7 @@ The GPT3 App, built with React and Vite, illustrates GPT-3's capabilities in tas
 First, clone the repository to your local machine:
 
 ```bash
-git clone <https://github.com/Chris-2811/gpt3-app.git>
+git clone https://github.com/Chris-2811/gpt3-app.git
 cd gpt3-app
 npm install
 ```
@@ -80,6 +80,6 @@ This project was inspired by [Adrian Hajdin](https://github.com/adrianhajdin).
 
 The development was based on [this React tutorial](https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=2&t=5265s).
 
-#Contact
+# Contact
 
 Created by [@Chris-2811](https://github.com/Chris-2811) - feel free to contact me!
