@@ -3,30 +3,70 @@ import './header.css';
 import logo from '../../assets/logo.svg';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
-const Menu = () => {
-  return (
-    <>
-      <li>
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <a href="#gpt3">What is GPT?</a>
-      </li>
-      <li>
-        <a href="#openAI">Open AI</a>
-      </li>
-      <li>
-        <a href="studies">Case Studies</a>
-      </li>
-      <li>
-        <a href="#library">Library</a>
-      </li>
-    </>
-  );
-};
-
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
+
+  const Menu = () => {
+    return (
+      <>
+        <li>
+          <a
+            href="#hero"
+            onClick={() => {
+              removeMenu();
+            }}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="#gpt3"
+            onClick={() => {
+              removeMenu();
+            }}
+          >
+            What is GPT?
+          </a>
+        </li>
+        <li>
+          <a
+            href="#possibilities"
+            onClick={() => {
+              removeMenu();
+            }}
+          >
+            Open AI
+          </a>
+        </li>
+        <li>
+          <a
+            href="#features"
+            onClick={() => {
+              removeMenu();
+            }}
+          >
+            Case Studies
+          </a>
+        </li>
+        <li>
+          <a
+            href="#blog"
+            onClick={() => {
+              removeMenu();
+            }}
+          >
+            Library
+          </a>
+        </li>
+      </>
+    );
+  };
+
+  function removeMenu() {
+    setToggleMenu(false);
+    document.getElementById('mobile-menu').style.display = 'none';
+  }
 
   return (
     <div className="header">
@@ -73,7 +113,7 @@ function Header() {
 
         {/* Mobile menu */}
         {toggleMenu && (
-          <nav className="mobile-menu scale-up-center">
+          <nav className="mobile-menu scale-up-center" id="mobile-menu">
             <ul role="list">
               <Menu />
             </ul>

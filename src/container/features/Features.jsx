@@ -23,7 +23,7 @@ const featuresData = [
 
 function Features() {
   return (
-    <section className="features">
+    <section className="features" id="features">
       <div className="container">
         <div className="features-header">
           <h2 className="gradient-text fs-800">

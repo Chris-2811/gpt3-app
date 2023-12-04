@@ -5,7 +5,7 @@ import Article from '../../components/article/Article';
 
 function Blog() {
   return (
-    <section className="blog">
+    <section className="blog" id="blog">
       <div className="container">
         <h2 className="gradient-text fs-900">
           A lot is happening, We are blogging about it.

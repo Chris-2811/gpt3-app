@@ -5,7 +5,7 @@ import ai from '../../assets/ai.png';
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="container">
         {/* Content */}
         <div className="hero-content">

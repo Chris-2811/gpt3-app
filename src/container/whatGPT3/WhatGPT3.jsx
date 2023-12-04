@@ -3,7 +3,7 @@ import './whatGPT3.css';
 
 function What3GPT() {
   return (
-    <section className="gpt3">
+    <section className="gpt3" id="gpt3">
       <div className="container">
         <div className="info-container">
           <div className="content-top">

@@ -4,7 +4,7 @@ import apps from '../../assets/possibility.png';
 
 function Possibility() {
   return (
-    <section className="possibility">
+    <section className="possibility" id="possibilities">
       <div className="container">
         <div className="pos-image">
           <img src={apps} alt="Illustration of application" />
