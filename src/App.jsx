@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import './Index.css';
+import './index.css';
 
 import {
   Blog,
