@@ -1,0 +1,141 @@
+.hero h1 {
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-top: 6.4375rem;
+  letter-spacing: -2.48px;
+  max-width: 614px;
+}
+
+.hero .content-text {
+  color: var(--clr-text);
+  margin-top: 2rem;
+  max-width: 500px;
+  font-size: 1.125rem;
+}
+
+.hero-content {
+  font: var(--ff-primary);
+}
+
+.hero-image img {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  max-width: 650px;
+}
+
+.hero .form {
+  display: flex;
+  margin-block: 2.5rem 2.375rem;
+}
+
+.hero input {
+  background-color: hsla(210, 89%, 18%, 1);
+  border: none;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  flex: 1;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #c8d8e5;
+}
+
+.hero input::placeholder {
+  color: #c8d8e5;
+  font-size: 0.875rem;
+}
+
+.btn-submit {
+  padding-inline: 1rem;
+  border: none;
+  background: #ff4820;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.people-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #fff;
+  position: relative;
+  margin-bottom: 2.75rem;
+}
+
+@media (min-width: 768px) {
+  .hero .form {
+    max-width: 614px;
+  }
+
+  .btn-submit {
+    padding-inline: 1.625rem;
+  }
+
+  .hero input::placeholder {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1020px) {
+  .hero .container {
+    display: flex;
+    padding-right: 0;
+  }
+
+  .hero .container > * {
+    width: 50%;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+    height: 80%;
+    width: 100%;
+    max-width: 650px;
+  }
+
+  .btn-submit {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1240px) {
+  .hero-image img {
+    margin: 0 auto;
+    height: 100%;
+    width: 110%;
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero .container {
+    display: flex;
+    padding-right: 0;
+  }
+
+  .hero .container > *:first-child {
+    width: 52.5%;
+  }
+  .hero .container > *:nth-child(2) {
+    width: 47.5%;
+  }
+
+  .hero-image {
+    position: relative;
+    width: 46%;
+  }
+
+  .hero-image img {
+    position: absolute;
+    width: 100%;
+    min-width: 667.41px;
+    height: 701px;
+  }
+
+  .hero-content {
+    width: 54%;
+  }
+}

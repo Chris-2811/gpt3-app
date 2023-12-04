@@ -1,0 +1,154 @@
+.gpt3-header {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.gpt3 .line {
+  width: 2.375rem;
+  height: 0.1875rem;
+  background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
+}
+
+.gpt3 h3 {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -0.96px;
+  margin-top: 0.5rem;
+}
+
+.gpt3 p {
+  color: var(--clr-text);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.875;
+}
+
+.info-container {
+  background: -moz-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(5, 45, 86, 1) 19%
+  );
+
+  background: -webkit-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(5, 45, 86, 1) 19%
+  );
+
+  background: -o-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(5, 45, 86, 1) 19%
+  );
+
+  background: -ms-radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(5, 45, 86, 1) 19%
+  );
+
+  background: radial-gradient(
+    circle at 100% 100%,
+    rgba(27, 120, 222, 1) 0%,
+    rgba(5, 45, 86, 1) 19%
+  );
+  padding-block: 3.875rem;
+  border-radius: 5px;
+}
+
+.content-middle {
+  padding-inline: 1.25rem;
+  margin-block: 2.5rem;
+}
+
+.content-middle a {
+  text-decoration: none;
+  color: var(--clr-subtext);
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+.content-top,
+.content-bottom {
+  padding-inline: 1.25rem;
+}
+
+.content-middle {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.content-bottom > div {
+  flex: 1;
+}
+
+.content-top p {
+  max-width: 731px;
+}
+
+@media (min-width: 768px) {
+  .content-middle,
+  .content-top,
+  .content-bottom {
+    display: flex;
+  }
+
+  .content-bottom p {
+    max-width: 700px;
+  }
+
+  .info-container {
+    padding-inline: 1rem;
+  }
+
+  .content-top {
+    justify-content: space-between;
+    gap: 4rem;
+  }
+
+  .content-top > *:first-child {
+    width: 30%;
+  }
+
+  .content-top > *:last-child {
+    width: 70%;
+  }
+
+  .content-middle {
+    margin-block: 3.5rem;
+  }
+
+  .content-middle h2 {
+    font-size: 2.125rem;
+  }
+
+  .content-middle > * {
+    width: 50%;
+  }
+
+  .content-middle > *:last-child {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1020px) {
+  .content-bottom {
+    flex-direction: row;
+  }
+
+  .content-middle {
+    margin-block: 5.6875rem;
+  }
+
+  .gpt3-header {
+    position: relative;
+    margin-bottom: 1.6125rem;
+  }
+}

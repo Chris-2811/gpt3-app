@@ -1,0 +1,129 @@
+.footer {
+  padding-block: 4rem 1.6875rem;
+  text-align: center;
+  background: var(--clr-bg-footer);
+  margin-top: 5.625rem;
+}
+
+.footer .container {
+  padding-inline: 2rem;
+}
+
+.footer-top h2 {
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -2.48px;
+  max-width: 821px;
+  margin: auto;
+}
+
+.btn-footer {
+  display: inline-block;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #fff;
+  font-size: 1.125rem;
+  color: #fff;
+  margin-block: 2.6125rem 5rem;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.footer-bottom .wrapper {
+  color: #fff;
+  align-self: self-start;
+  margin-top: 0.3125rem;
+}
+
+.footer-bottom .wrapper p {
+  margin-top: 1.5rem;
+  max-width: 168px;
+  font-size: 0.75rem;
+}
+
+.footer-menu h4 {
+  margin-bottom: 1.375rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+.footer-menu ul > li {
+  margin-bottom: 1.6125rem;
+  font-size: 0.75rem;
+}
+
+.footer-menu ul li > a {
+  color: #fff;
+}
+
+.links,
+.company,
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.contact {
+  max-width: 11.5rem;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.footer .copyright {
+  margin-top: 3.5rem;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .footer .container {
+    padding-inline: 4.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5rem;
+  }
+
+  .footer-menu {
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1020px) {
+  .footer-menu {
+    gap: 10rem;
+  }
+
+  .footer-menu h4 {
+    margin-bottom: 2.375rem;
+    font-size: 0.875rem;
+    font-weight: 800;
+  }
+
+  .footer {
+    margin-top: 9.625rem;
+    padding-block: 11rem 1.6875rem;
+  }
+
+  .btn-footer {
+    margin-block: 4rem 11rem;
+  }
+}

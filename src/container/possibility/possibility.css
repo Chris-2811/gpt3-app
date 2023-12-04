@@ -1,0 +1,61 @@
+.possibility .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pos-content h2 {
+  margin-block: 0.624rem 1.5rem;
+  max-width: 426px;
+  font-weight: 800;
+}
+
+.pos-image {
+  max-width: 650px;
+  margin-bottom: 2.5rem;
+}
+
+.possibility a:first-of-type {
+  color: hsla(191, 100%, 72%, 1);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.possibility a:last-of-type {
+  color: var(--clr-subtext);
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.possibility p {
+  color: var(--clr-text);
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  max-width: 550px;
+}
+
+@media (min-width: 768px) {
+  .possibility .container {
+    flex-direction: row;
+    padding-left: 2.3125rem;
+    gap: 2rem;
+  }
+
+  .pos-image {
+    width: 50%;
+    max-width: 546px;
+    max-height: 607.527px;
+    margin-bottom: 0;
+  }
+
+  .pos-content {
+    width: 50%;
+    align-self: center;
+  }
+
+  .possibility p {
+    color: var(--clr-text);
+    margin-bottom: 1.5rem;
+    max-width: 479px;
+  }
+}

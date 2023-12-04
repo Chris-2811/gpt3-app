@@ -1,0 +1,70 @@
+.cta {
+  margin-block: 5rem;
+  padding-inline: 1.5rem;
+}
+
+.cta .container {
+  border-radius: 10.724px;
+  border: 1px solid #000;
+  padding: 2rem;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta small {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.cta h2 {
+  font-weight: 800;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.btn-cta {
+  background-color: #000;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.66;
+  padding: 0.75rem 2.315rem;
+  align-self: center;
+}
+
+.cta a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .cta {
+    margin-block: 9.5rem;
+  }
+
+  .cta .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.875rem;
+    line-height: 1.87;
+  }
+
+  .cta small {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .cta h2 {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .cta h2 {
+    max-width: none;
+  }
+}
